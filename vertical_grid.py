@@ -1,6 +1,6 @@
 import numpy as np
 
-def vertical_grid(dz,h,):
+def vertical_grid(dz,h):
 
     nzt = int(h/dz)
     nzw = nzt + 1
